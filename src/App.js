@@ -1,11 +1,18 @@
 
 
 import Home from './Components/Home';
+import DataProvider from './Context/DataProvider';
 
 function App() {
   return (
     <div>
-      <Home></Home>
+      <DataProvider>
+
+        <Home></Home>
+
+      </DataProvider>
+
+
     </div>
   );
 }
