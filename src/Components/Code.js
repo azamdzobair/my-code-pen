@@ -7,7 +7,7 @@ const Code = () => {
     const { html, setHtml, css, setCss, js, setJs } = useContext(DataContext);
 
     return (
-        <div className='flex bg-black h-2/4'>
+        <div className='flex  bg-black '>
             <Editor
                 heading='HTML'
                 icon='/'
